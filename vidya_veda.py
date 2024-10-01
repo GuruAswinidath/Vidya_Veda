@@ -112,44 +112,34 @@ class RAGModel:
     # generated_content  # stores the content generated using the retrieved data
 
     def retrieve_content(query):
-        """
-        Function to retrieve relevant content from external sources or internal databases based on a query.
-        This information will be used to augment the AI's responses.
-        """
+    
+        #Function to retrieve relevant content from external sources or internal databases based on a query.
+        #This information will be used to augment the AI's responses.
         pass
 
     def generate_response(query, context):
-        """
-        Function to generate a response using both the retrieved content and a generative language model.
-        """
+        #Function to generate a response using both the retrieved content and a generative language model.
         pass
 
     def embed_query(query):
-        """
-        Function to convert the query into a vector representation (embedding).
-        This is typically done using a pre-trained language model.
-        """
+        
+        #Function to convert the query into a vector representation (embedding).
+        #This is typically done using a pre-trained language model.
         pass
 
     def search_vectordb(embedding):
-        """
-        Function to search a vector database using the query embedding.
-        This function retrieves the most relevant documents or information based on the similarity of embeddings.
-        """
+        #Function to search a vector database using the query embedding.
+        #This function retrieves the most relevant documents or information based on the similarity of embeddings.
         pass
 
     def embed_documents(documents):
-        """
-        Function to convert a list of documents into their vector representations (embeddings).
-        This is typically done using a pre-trained language model.
-        """
+        #Function to convert a list of documents into their vector representations (embeddings).
+        #This is typically done using a pre-trained language model.
         pass
 
     def store_in_vectordb(embeddings, documents):
-        """
-        Function to store document embeddings and their corresponding documents in a vector database.
-        This allows for efficient retrieval of relevant documents based on query embeddings.
-        """
+        #Function to store document embeddings and their corresponding documents in a vector database.
+        #This allows for efficient retrieval of relevant documents based on query embeddings.
         pass
 
 report_generator.py   # File Name
