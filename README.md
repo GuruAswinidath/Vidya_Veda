@@ -1,5 +1,5 @@
 <p align="center">
-  <strong><font size="+50">📚 Vidya Veda</font></strong>
+  <strong><font size="40">📚 Vidya Veda</font></strong>
 </p>
 ---
 # 📚 AI-Powered Educational Platform
