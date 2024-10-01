@@ -57,10 +57,14 @@ This project proposes an innovative mobile application that leverages Generative
 
 ```
 ---
-### **Program skeleton**
-```bash
-video_processor.py  # File name
 
+### **File Descriptions and Program skeleton**
+
+Please Refer Vidya_veda.py file
+
+#### `video_processor.py`
+Contains the `VideoProcessor` class for recommending videos and generating summaries based on video transcripts. It fetches transcripts from external APIs or local databases for further processing.
+```bash
 class VideoProcessor:
     # video_data  # stores the recommended videos for a topic
     # transcripts  # stores the video transcripts
@@ -78,9 +82,12 @@ class VideoProcessor:
         #Function to extract the transcript of a video using the OpenAI API or another service.
         #This transcript will be used for summarization and quiz generation.
         pass
+```
 
-quiz_generator.py  #File Name
 
+#### `quiz_generator.py`
+Defines the `QuizGenerator` class, which creates quizzes from provided topics or video summaries and evaluates student answers. It provides personalized feedback based on performance.
+```bash
 class QuizGenerator:
     # quiz_questions  # stores the generated questions for the quiz
     # quiz_answers  # stores the correct answers for evaluation
@@ -94,9 +101,11 @@ class QuizGenerator:
         #Function to evaluate the student's answers by comparing them to the correct answers.
         #Returns the score and feedback based on the student's performance.
         pass
+```
 
-ai_chatbot.py  #File 
-
+#### `ai_chatbot.py`
+Implements the `ChatBot` class that powers the interactive AI chatbot. The chatbot leverages large language models to respond to student queries and handle follow-up questions.
+```bash
 class ChatBot:
     # chatbot_model  # stores the pre-trained large language model for answering queries
 
@@ -112,9 +121,12 @@ class ChatBot:
     def handle_follow_up(question):
         #Function that handles follow-up questions from students based on previous answers.
         pass
+```
 
-content_manager.py  #File Name
 
+#### `content_manager.py`
+Manages the uploading of study materials, including PDFs, and extracts text for summarization and quiz generation.
+```bash
 class ContentManager:
     # uploaded_content  # stores the uploaded PDFs, notes, or books
     # extracted_text  # stores text extracted from uploaded files
@@ -128,9 +140,12 @@ class ContentManager:
         #Function to summarize and convert the extracted text into study notes.
         #The summarized notes are organized and made available to students.
         pass
+```
 
-nlp_module.py   #File Name
+#### `nlp_module.py`
+Includes functions for text summarization and tokenization, essential for preprocessing study materials before quiz generation or chatbot responses.
 
+```bash
 class NLPModule:
     # processed_text  # stores text after pre-processing and tokenization
     # summarized_text  # stores the summarized version of the input text
@@ -144,9 +159,11 @@ class NLPModule:
         #Function to tokenize input text for further processing or analysis.
         #Can be used for question generation or answer extraction.
         pass
+```
 
-rag_model.py  #File Name
-
+#### `rag_model.py`
+Implements the RAG (Retrieve and Generate) system, which retrieves relevant documents from external sources to generate more contextually accurate AI responses.
+```bash
 class RAGModel:
     # retrieved_content  # stores the relevant information retrieved from external sources
     # generated_content  # stores the content generated using the retrieved data
@@ -191,9 +208,11 @@ class RAGModel:
         This allows for efficient retrieval of relevant documents based on query embeddings.
         """
         pass
+```
 
-report_generator.py   # File Name
-
+#### `report_generator.py`
+Generates detailed performance reports for students, summarizing quiz scores and providing feedback. It also tracks performance trends over time.
+```bash
 class ReportGenerator:
     # student_reports  # stores individual student reports with their performance metrics
 
@@ -206,34 +225,7 @@ class ReportGenerator:
         #Function to aggregate quiz results and show overall performance over time.
         #Displays trends in student performance to track improvement.
         pass
-
 ```
-
----
----
-
-### **File Descriptions**
-
-#### `video_processor.py`
-Contains the `VideoProcessor` class for recommending videos and generating summaries based on video transcripts. It fetches transcripts from external APIs or local databases for further processing.
-
-#### `quiz_generator.py`
-Defines the `QuizGenerator` class, which creates quizzes from provided topics or video summaries and evaluates student answers. It provides personalized feedback based on performance.
-
-#### `ai_chatbot.py`
-Implements the `ChatBot` class that powers the interactive AI chatbot. The chatbot leverages large language models to respond to student queries and handle follow-up questions.
-
-#### `content_manager.py`
-Manages the uploading of study materials, including PDFs, and extracts text for summarization and quiz generation.
-
-#### `nlp_module.py`
-Includes functions for text summarization and tokenization, essential for preprocessing study materials before quiz generation or chatbot responses.
-
-#### `rag_model.py`
-Implements the RAG (Retrieve and Generate) system, which retrieves relevant documents from external sources to generate more contextually accurate AI responses.
-
-#### `report_generator.py`
-Generates detailed performance reports for students, summarizing quiz scores and providing feedback. It also tracks performance trends over time.
 
 ---
 
