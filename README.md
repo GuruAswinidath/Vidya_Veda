@@ -1,5 +1,5 @@
 <p align="center">
-  <span style="font-size: 32px; font-weight: bold;">📚 Vidya Veda</span>
+  <span style="font-size: 70px; font-weight: bold;">📚 Vidya Veda</span>
 </p>
 
 # 📚 AI-Powered Educational Platform
