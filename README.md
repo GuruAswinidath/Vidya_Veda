@@ -1,7 +1,7 @@
 <p align="center">
-  <strong><font size="40">📚 Vidya Veda</font></strong>
+  <span style="font-size: 32px; font-weight: bold;">📚 Vidya Veda</span>
 </p>
----
+
 # 📚 AI-Powered Educational Platform
 
 🚀 **Overview**  
