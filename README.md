@@ -1,4 +1,6 @@
-# Vidya_Veda 
+<p align="center">
+  Vidya Veda
+</p>
 
 # 📚 AI-Powered Educational Platform
 
