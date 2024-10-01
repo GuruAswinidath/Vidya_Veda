@@ -60,7 +60,7 @@ This project proposes an innovative mobile application that leverages Generative
 
 ### **File Descriptions and Program skeleton**
 
-Please Refer Vidya_veda.py file
+Please `Refer Vidya_veda.py` file
 
 #### `video_processor.py`
 Contains the `VideoProcessor` class for recommending videos and generating summaries based on video transcripts. It fetches transcripts from external APIs or local databases for further processing.
