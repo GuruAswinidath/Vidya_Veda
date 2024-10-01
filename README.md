@@ -6,7 +6,11 @@
 This project proposes an innovative mobile application that leverages Generative AI (GenAI) to personalize the learning experience for students. The app tackles the challenge of information overload by allowing users to specify a topic and then curating relevant video lectures with timestamps for specific subtopics. GenAI further personalizes learning by generating clear and concise notes from video lectures and uploaded PDFs. Interactive quizzes tailored to the chosen concept solidify understanding, while performance analysis reports provide valuable insights into strengths and weaknesses. This app empowers students to become active participants in their education by fostering personalized learning, enhanced efficiency, deeper understanding, and self-directed learning.
 
 ---
-
+## Team Meambers:
+1. Chada Narasimha Reddy - AM.EN.U4AIE21073
+2. Guru Aswini Dath - AM.EN.U4AIE21023
+3. Gagan Dwaz Chapa - AM.EN.U4AIE21028
+---
 ## 🎯 **Key Features**
 
 ### 🎥 Video Recommendation & Summarization
